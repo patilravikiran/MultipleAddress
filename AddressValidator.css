@@ -1,0 +1,76 @@
+* { box-sizing: border-box; }
+
+.addresssearchinput {
+  position: relative;
+  display: inline-block;
+  max-width: 500px;
+}
+
+input#MultipleAddressSearch{
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 16px;
+  height: 35px !important;
+  width: 100%;
+}
+
+input#MultipleAddressSearch:focus:hover {
+  border: 1px solid;
+}
+
+.address-list-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  z-index: 99;
+  text-align: left;
+}
+
+.address-list-item {
+  background-color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  font-family: "Segoe UI Regular", SegoeUI, "Segoe UI";
+  font-family: 'SegoeUI', 'Segoe UI';
+}
+
+.address-list-item:hover {
+  background-color: DodgerBlue !important;
+}
+
+.address-list-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+button.addressnewbutton{
+    background-color: #fff;
+    border-width: 0px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    color: rgb(17, 96, 183);
+    font-size: 14px;
+    width: 100%;
+    font-family: "Segoe UI Regular", SegoeUI, "Segoe UI";
+}
+
+button.addressnewbutton:hover {
+  text-decoration: underline;
+}
+
+hr.hrNewAddress{
+  border-top: 1px solid;
+  border-color: rgb(226, 226, 226);
+  padding-top: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

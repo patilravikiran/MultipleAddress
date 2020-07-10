@@ -1,0 +1,52 @@
+div.container.iconPresent{
+    position: relative;
+}
+
+div.container.iconPresent input#inputField{
+    padding-right: calc(2.5em);
+}
+
+div.container.iconPresent span#iconElement{
+    width: 1.5em;
+    left: calc(100% - (2.5em + 1px));
+    height: calc(1.5em - 2px);
+    position: absolute;
+    cursor: pointer;
+    padding: 0.5em;
+    top: 1px;
+    right: 1px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+div.container.iconPresent.readOnly span#iconElement{
+    left: calc(100% - (2.5em));
+    height: 1.5em;
+    top: 0px;
+    right: 0px;
+}
+
+/*Styling the span when hovering over the input*/
+div.container.iconPresent span#iconElement:hover,
+div.container.iconPresent span#iconElement:focus,
+div.container.iconPresent input#inputField:hover ~ span#iconElement,
+div.container.iconPresent input#inputField:focus ~ span#iconElement{
+	background-color:rgb(216, 216, 216);
+}
+
+div.container.iconPresent span#iconElement.inputError:hover,
+div.container.iconPresent span#iconElement.inputError:focus,
+div.container.iconPresent input#inputField:hover ~ span#iconElement.inputError,
+div.container.iconPresent input#inputField:focus ~ span#iconElement.inputError{
+	left: calc(100% - (2.5em + 2px));
+    height: calc(1.5em - 4px);
+    top: 2px;
+    right: 2px;
+}
+
+div.container.iconPresent.readOnly span#iconElement:hover,
+div.container.iconPresent.readOnly span#iconElement:focus,
+div.container.iconPresent.readOnly input#inputField:hover ~ span#iconElement,
+div.container.iconPresent.readOnly input#inputField:focus ~ span#iconElement{
+	background-color:transparent;
+}
