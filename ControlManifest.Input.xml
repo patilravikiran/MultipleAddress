@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="ADDRESS" constructor="MultipleAddresses" version="0.0.117" display-name-key="Multiple Addresses" description-key="MultipleAddresses description" control-type="standard">
+    <property name="jobtitle" display-name-key="jobtitle" description-key="Job Title" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="companyguid" display-name-key="companyguid" description-key="Company Guid" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="addressname" display-name-key="Address Name" description-key="Address Name" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="addressline1" display-name-key="Address Line 1" description-key="Address Line 1" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="addressline2" display-name-key="Address Line 2" description-key="Address Line 2" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="addressline3" display-name-key="Address Line 3" description-key="Address Line 3" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="city" display-name-key="Town/City" description-key="Town/City" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="state" display-name-key="State/Province" description-key="State/Province" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="postalcode" display-name-key="ZIP/Postal Code" description-key="ZIP/Postal Code" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="country" display-name-key="Country" description-key="Country" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/AddressValidator.css" order="1" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
