@@ -1,0 +1,44 @@
+https://portal.office.com/
+https://ravi0010.crm8.dynamics.com/main.aspx?
+TCS@Ravi0010.onmicrosoft.com
+TCS@Dipali002.onmicrosoft.com
+Ravi@1234
+
+
+https://d365test123.azurewebsites.net/api/HttpTrigger2
+
+DGqaBu95yIcZVV/Y8BEU0mosOSc2t8VAdg9rJNAZDqHkaQobIBoF4Q==
+
+App Id - e33005d3-1e11-4655-a4b6-8ce8fd3d2f50
+
+https://yanivrdt.wordpress.com/2019/03/20/integrating-dynamics-365-with-azure-function-using-managed-identity/
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe"
+
+pac pcf init --namespace ADDRESS --name MultipleAddresses --template field
+
+
+
+
+https://ravikirantcs.crm11.dynamics.com/api/data/v9.1/customeraddresses?$select=composite&$filter=_parentid_value eq aaa19cdd-88df-e311-b8e5-6c3be5a8b200
+
+
+?$select=composite,addressnumber&$filter=_parentid_value eq aaa19cdd-88df-e311-b8e5-6c3be5a8b200 and addressnumber ne 2
+
+
+npm run build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe"
+
+
+Dialog : https://pcf.gallery/exchange-rate-control/
+CRUD : https://github.com/vigneshr1236/PCF-WebAPI-crud/blob/master/crud/index.ts
+	https://docs.microsoft.com/en-us/powerapps/developer/component-framework/sample-controls/webapi-control
+	https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/retrievemultiplerecords
+
+
+ravikiran@ravikirantcs.onmicrosoft.com
+
+
+pac pcf init --namespace ADDRESS --name MultipleAddresses --template field
+pac solution init --publisher-name ravi --publisher-prefix dev
+pac solution add-reference --path D:\Ravi\PCF\Controls\MultipleAddress
